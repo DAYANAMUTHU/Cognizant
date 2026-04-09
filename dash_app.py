@@ -5,12 +5,12 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 
 # Load the pretrained model
-model_path = r'C:\Users\DEEPIKA\Downloads\readm fe\final_code_cog\data\trained_ensemble_model.pkl'
+model_path = 'data/trained_ensemble_model.pkl'
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
 # Load the dataset
-data_path = r'C:\Users\DEEPIKA\Downloads\readm fe\final_code_cog\data\updated_dataset_with_ids.csv'
+data_path = 'data/updated_dataset_with_ids.csv'
 df = pd.read_csv(data_path)
 
 # Ensure the dataset has an 'Age' column for visualization

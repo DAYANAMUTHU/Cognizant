@@ -37,11 +37,11 @@ ref = db.reference('patients_risk')
 counter_ref = db.reference('counters')
 
 # Load the trained model
-model = pickle.load(open(r'C:\Users\DEEPIKA\Downloads\readm fe\final_code_cog\data\trained_ensemble_model.pkl', 'rb'))
+model = pickle.load(open('data/trained_ensemble_model.pkl', 'rb'))
 
 # Load the dataset with Patient_IDs
-df = pd.read_csv(r"C:\Users\DEEPIKA\Downloads\readm fe\final_code_cog\data\updated_dataset_with_ids.csv")
-hf = pd.read_csv(r"C:\Users\DEEPIKA\Downloads\readm fe\final_code_cog\data\updated_dataset_with_ids.csv")
+df = pd.read_csv("data/updated_dataset_with_ids.csv")
+hf = pd.read_csv("data/updated_dataset_with_ids.csv")
 
 
 # Define the threshold for predicting readmission
@@ -193,7 +193,7 @@ def get_dos_and_donts(disease):
     # model1 = pickle.load(open(r'C:\Users\DEEPIKA\Downloads\readm fe\data\trained_ensemble_model.pkl', 'rb'))
 
 # Load the dataset with Patient_IDs
-df4= pd.read_csv(r'C:\Users\DEEPIKA\Downloads\readm fe\final_code_cog\data\updated_dataset_with_ids.csv')
+df4= pd.read_csv('data/updated_dataset_with_ids.csv')
 
 
 def predict_for_patient_for_2(patient_id):
