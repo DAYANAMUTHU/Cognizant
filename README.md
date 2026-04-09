@@ -54,4 +54,3 @@ Hospital readmission is a significant concern for healthcare systems, leading to
 - Run - dash_app.py to access the visulation on the patients reports
 - run app_fin.py
 for more queries message me on gmail: **deeparamya2004@gmail.com**
-
