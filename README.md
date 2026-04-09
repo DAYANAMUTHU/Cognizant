@@ -84,5 +84,5 @@ The ensemble model provided the best balance between accuracy, generalization, a
 - create account on twillo and firebase and download the key as json and upload it in the folder.
 - Run - dash_app.py to access the visulation on the patients reports
 - run app_fin.py
-for more queries message me on gmail: **deeparamya2004@gmail.com**
+for more queries message me on gmail: **dayanamuthu05@gmail.com**
 
